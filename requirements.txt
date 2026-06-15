@@ -10,3 +10,4 @@ lxml
 requests
 python-dotenv
 rich
+streamlit
