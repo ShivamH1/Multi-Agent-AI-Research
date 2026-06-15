@@ -5,6 +5,7 @@ langchain-mistralai
 langchain-groq
 tavily-python
 beautifulsoup4
+bs4
 lxml
 requests
 python-dotenv

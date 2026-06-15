@@ -1,7 +1,6 @@
 from langchain.tools import tool
 from tavily import TavilyClient
 import os
-from rich import print
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -26,6 +25,3 @@ def web_search(query: str) -> str:
     return "\n------------------------------------------------------------------------------\n".join(
         results_to_return
     )
-
-
-print(web_search.invoke("What's the latest news on US vs Iran war?"))
